@@ -1,0 +1,15 @@
+
+.fancy_content {
+    background-image: url('../images/victorian_pic_frame.jpg');
+    height: 80rem;
+    background-size: contain;
+    margin: auto;
+    padding: 10em;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 2em;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: rgb(84 0 0);
+}
