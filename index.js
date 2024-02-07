@@ -20,20 +20,30 @@ $(window).on("load",function() {
 
 
   $(document).ready(function(){
-    hideAllTeamRoles();
-    addHoverToRole();
+    // hideArrows();
+    // addHoverToElement();
+    $('nav a').hover(
+      function () {
+        var img_url = './images/test_arrow_gif.gif';
+        $('#test_arrow').css('background-image', 'url('+ img_url +')');
+        $('#test_arrow').fadeIn();
+      },
+      function () {
+        $('#test_arrow').fadeOut();
+      }
+    )
     
   })
 
 
-  function hideAllTeamRoles() {
-    var names = ["davidPRole", "davidARole", "carterRole", "nickRole", "michaelRole"];
-    names.forEach(role => {
-      $(`#${role}`).hide();
+  function hideArrows() {
+    var names = ["test_arrow"];
+    names.forEach(name => {
+      $(`#${name}`).hide();
     });
   }
 
-  function toggleTeamRole(name, action) {
+  function toggleElement(name, action) {
     if (action == "hide") {
       $(`#${name}`).hide();
     } else {
@@ -41,13 +51,13 @@ $(window).on("load",function() {
     }
   }
 
-  function addHoverToRole() {
-    var names = ["davidP", "davidA", "carter", "nick", "michael"];
+  function addHoverToElement() {
+    var names = ["nav-link"];
     names.forEach(name => {
-      $(`#${name}Name`).hover(function(){
-        toggleTeamRole(`${name}Role`, "show");
+      $(`#${name}`).hover(function(){
+        toggleTeamRole(`${name}`, "show");
       }, function(){
-        toggleTeamRole(`${name}Role`, "hide");
+        toggleTeamRole(`${name}`, "hide");
     });
     });
   }

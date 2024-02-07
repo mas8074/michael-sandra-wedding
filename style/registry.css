@@ -13,3 +13,7 @@
 p {
     color: rgb(84 0 0);
 }
+
+.test_arrow {
+    display: none;
+}

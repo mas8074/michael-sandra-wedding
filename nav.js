@@ -14,6 +14,7 @@ $(document).ready(function(){
 					<li class="nav-item">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" href="about_us.html">Our Story</a>
 					</li>
@@ -26,5 +27,6 @@ $(document).ready(function(){
 				</ul>
 			</div>
 		
-		</nav>`);
+		</nav>
+		`);
 });
