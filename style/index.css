@@ -7,11 +7,19 @@
   }
 
 body {
-    background-image: url('../images/S&M_Engagement-161.jpg'); 
+    /* background-image: url('../images/S&M_Engagement-161.jpg');  */
     background-size: cover;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: #9b0232;
+}
+
+.intro-section {
+    background-image: url('../images/S&M_Engagement-161.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
 }
 
 .fade {
@@ -92,7 +100,8 @@ body {
 
 
 p {
-color:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    text-align: center;
 }
 
 .name p {
@@ -122,9 +131,10 @@ h1 {
 
 h2 {
     color:rgb(255, 255, 255);
-    font-size: 5em;
+    font-size: 2em;
     font-family: "Helvetica Neue";
     text-shadow: -2px 2px 20px black;
+    text-align: center;
 }
 
 .text_description {
