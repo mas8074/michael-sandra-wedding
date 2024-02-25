@@ -153,19 +153,3 @@ h2 {
     border: black;
     border-width: 5px;
 }
-
-#fancy_content {
-    background-image: url('../images/victorian_pic_frame.jpg');
-    height: 80rem;
-    background-size: contain;
-    margin: auto;
-    padding: 10em;
-    font-family: Copperplate, Papyrus, fantasy;
-    font-size: 2em;
-    background-repeat: no-repeat;
-}
-
-#content {
-    /* opacity: 0; */
-    transition: opacity 5s ease-in-out; /* You can adjust the duration and timing function */
-}
