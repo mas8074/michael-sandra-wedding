@@ -33,6 +33,8 @@ $(window).on("load",function() {
     )
 
     
+      
+    
   
   });
 
@@ -70,8 +72,8 @@ $(window).on("load",function() {
   }
 
   function scrollToSection(sectionId) {
-    var section = getElementById(sectionId);
-    console.log(section);
+    var section = document.getElementById(sectionId);
+    
     if (section) {
       section.scrollIntoView({behavior: 'smooth' });
     }
