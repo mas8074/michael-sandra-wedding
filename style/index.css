@@ -7,19 +7,16 @@
   }
 
 body {
-    /* background-image: url('../images/S&M_Engagement-161.jpg');  */
+    /* background-image: url('../images/S&M_Engagement-161.jpg'); 
     background-size: cover;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    background-color: #9b0232;
+    flex-direction: column; */
+    
 }
 
-.intro-section {
-    background-image: url('../images/S&M_Engagement-161.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 25rem;
+a {
+    color: #ffffff;
 }
 
 .fade {
@@ -27,6 +24,16 @@ body {
     padding: 50px;
     opacity: 1;
   }
+
+#navbar {
+    width: 100%;
+    background-color: #5c1212;
+    
+    /* padding: 10px; */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 
 .topnav {
 background-color: #ffffff;
@@ -53,7 +60,7 @@ color: black;
 
 /* Adding to Bootstrap class */
 .nav-link {
-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
 }
 
 /* Adding to Bootstrap class */
@@ -102,6 +109,7 @@ body {
 p {
     color:rgb(255, 255, 255);
     text-align: center;
+    text-shadow: 0px 0px 10px black
 }
 
 .name p {
@@ -131,7 +139,7 @@ h1 {
 
 h2 {
     color:rgb(255, 255, 255);
-    font-size: 2em;
+    font-size: 3em;
     font-family: "Helvetica Neue";
     text-shadow: -2px 2px 20px black;
     text-align: center;
@@ -152,4 +160,54 @@ h2 {
     padding: 20px;
     border: black;
     border-width: 5px;
+}
+
+.our_story {
+    background-color: #5c1212;
+}
+
+.section {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* height: 25rem; */
+    max-width: inherit;
+    
+    /* background-attachment: fixed;  */
+
+
+}
+
+@media (max-width: 767px) {
+    .section {
+        /* background-size: contain;  */
+        background-position: center;
+    }
+}
+
+#section1 {
+    background-image: url('../images/S&M_Engagement-161.jpg'); 
+    /* background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column; */
+    background-attachment: fixed; 
+}
+
+#section2 {
+    /* background-image: url('../images/S&M_Engagement-161.jpg');      */
+    background-color: #5c1212;
+}
+
+#section3 {
+    background-image: url('../images/S&M_Engagement-94.jpg');  
+}
+
+#section4 {
+    background-image: url('../images/S&M_Engagement-152.jpg');  
 }

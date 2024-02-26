@@ -12,17 +12,17 @@ $(document).ready(function(){
 			<!-- Links -->
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link" href="#section1" onclick="scrollToSection('section1')">Home</a>
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" href="about_us.html">Our Story</a>
+						<a class="nav-link" href="#section2" onclick="scrollToSection('section2')" >Our Story</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="registry.html">Registry</a>
+						<a class="nav-link" href="#section3" onclick="scrollToSection('section3')">Registry</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="more_info.html">Wedding Details</a>
+						<a class="nav-link" href="#section4" onclick="scrollToSection('section4')">Wedding Details</a>
 					</li>
 				</ul>
 			</div>

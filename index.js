@@ -16,11 +16,10 @@ $(window).on("load",function() {
         }
       });
     }).scroll(); //invoke scroll-handler on page-load
-  });
+  
 
 
-  $(document).ready(function(){
-    // hideArrows();
+      // hideArrows();
     // addHoverToElement();
     $('nav a').hover(
       function () {
@@ -32,8 +31,16 @@ $(window).on("load",function() {
         $('#test_arrow').fadeOut();
       }
     )
+
     
-  })
+  
+  });
+
+
+  
+
+    
+
 
 
   function hideArrows() {
@@ -60,4 +67,12 @@ $(window).on("load",function() {
         toggleTeamRole(`${name}`, "hide");
     });
     });
+  }
+
+  function scrollToSection(sectionId) {
+    var section = getElementById(sectionId);
+    console.log(section);
+    if (section) {
+      section.scrollIntoView({behavior: 'smooth' });
+    }
   }
