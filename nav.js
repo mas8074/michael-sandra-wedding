@@ -7,7 +7,7 @@ $(document).ready(function(){
 	// 					<a href="agenda.html">Agenda</a>
 	// 				</div>`);
 	$("#navbar").append(
-		`<nav class="navbar navbar-expand-lg">
+		`<nav class="navbar navbar-expand-sm">
 			<div class="container-fluid justify-content-center">
 			<!-- Links -->
 				<ul class="navbar-nav">
