@@ -18,7 +18,7 @@ p {
     text-align: center;
     text-shadow: 0px 0px 10px black;
     font-size: large;
-    font-family: 'IM Fell English SC';
+    font-family: 'IM Fell English';
     font-style: italic;
 }
 
@@ -27,7 +27,7 @@ h1 {
     color:rgb(255, 255, 255);
     font-size: 7em;
     /* font-family: "Milo Serif"; */
-    font-family: 'IM Fell English SC';
+    font-family: 'IM Fell English';
     font-style: italic;
     text-shadow: -2px 2px 20px black;
 }
@@ -36,7 +36,7 @@ h2 {
     color:rgb(255, 255, 255);
     font-size: 3em;
     /* font-family: "Helvetica Neue"; */
-    font-family: 'IM Fell English SC';
+    font-family: 'IM Fell English';
     font-style: italic;
     text-shadow: -2px 2px 20px black;
     text-align: center;
@@ -81,7 +81,7 @@ a {
 /* Adding to Bootstrap class */
 .nav-link {
     color:rgb(255, 255, 255);
-    font-family: 'IM Fell English SC';
+    font-family: 'IM Fell English';
     font-style: italic;
 }
 
