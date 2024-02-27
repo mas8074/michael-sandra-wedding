@@ -6,14 +6,14 @@
     opacity: 1;
   }
 
-body {
-    /* background-image: url('../images/S&M_Engagement-161.jpg'); 
+/* body {
+    background-image: url('../images/S&M_Engagement-161.jpg'); 
     background-size: cover;
     align-items: center;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
     
-}
+} */
 
 a {
     color: #ffffff;
@@ -35,29 +35,6 @@ a {
     z-index: 1000;
 }
 
-.topnav {
-background-color: #ffffff;
-background-image: url(Images/key_header.jpg);
-background-position: 1px;
-overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-float: left;
-color: orange;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 25px;
-}
-
-/* Change the color of links on hover | TODO: Does this one do anything? */
-.topnav a:hover {
-/* background-color: #ddd; */
-color: black;
-}
-
 /* Adding to Bootstrap class */
 .nav-link {
 color:rgb(255, 255, 255);
@@ -68,13 +45,6 @@ color:rgb(255, 255, 255);
     font-weight: bold;
 }
 
-
-
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color: #04AA6D;
-color: white;
-}
 
 .nav_title {
 color: orange;
