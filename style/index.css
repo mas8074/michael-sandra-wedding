@@ -136,6 +136,11 @@ h2 {
     background-color: #5c1212;
 }
 
+.custom-toggler {
+    padding: 0.5rem;
+    border: 0.2rem solid white;
+}
+
 .section {
     height: 100vh;
     display: grid;
