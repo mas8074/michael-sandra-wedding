@@ -18,20 +18,26 @@ p {
     text-align: center;
     text-shadow: 0px 0px 10px black;
     font-size: large;
+    font-family: 'IM Fell English SC';
+    font-style: italic;
 }
 
 h1 {
     /* color:rgba(168, 168, 168, 1); */
     color:rgb(255, 255, 255);
     font-size: 7em;
-    font-family: "Milo Serif";
+    /* font-family: "Milo Serif"; */
+    font-family: 'IM Fell English SC';
+    font-style: italic;
     text-shadow: -2px 2px 20px black;
 }
 
 h2 {
     color:rgb(255, 255, 255);
     font-size: 3em;
-    font-family: "Helvetica Neue";
+    /* font-family: "Helvetica Neue"; */
+    font-family: 'IM Fell English SC';
+    font-style: italic;
     text-shadow: -2px 2px 20px black;
     text-align: center;
 }
@@ -74,7 +80,9 @@ a {
 
 /* Adding to Bootstrap class */
 .nav-link {
-color:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-family: 'IM Fell English SC';
+    font-style: italic;
 }
 
 /* Adding to Bootstrap class */
@@ -96,25 +104,6 @@ padding: 50px;
 }
 
 
-
-
-
-.text_description {
-    text-align: center;
-    padding: 20px;
-    /* color: white; */
-    font-size: larger;
-    background-color: rgba(51, 51, 51, 0.8);
-}
-
-
-
-.chart {
-    align-content: center;
-    padding: 20px;
-    border: black;
-    border-width: 5px;
-}
 
 .our_story {
     background-color: #5c1212;
@@ -150,12 +139,12 @@ padding: 50px;
     h1 {
         font-size: 3rem;
     }
-    h2 {
+    /* h2 {
         font-family: 'Milo Serif';
     }
     p {
         font-family: 'Milo Serif';
-    }
+    } */
 
 }
 
