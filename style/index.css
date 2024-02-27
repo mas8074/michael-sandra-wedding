@@ -131,22 +131,6 @@ padding: 50px;
 
 }
 
-@media (max-width: 767px) {
-    .section {
-        /* background-size: contain;  */
-        background-position: center;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    /* h2 {
-        font-family: 'Milo Serif';
-    }
-    p {
-        font-family: 'Milo Serif';
-    } */
-
-}
 
 #section1 {
     background-image: url('../images/S&M_Engagement-161.jpg'); 
@@ -168,4 +152,26 @@ padding: 50px;
 
 #section4 {
     background-image: url('../images/S&M_Engagement-152.jpg');  
+}
+
+
+@media (max-width: 767px) {
+    .section {
+        /* background-size: contain;  */
+        background-position: center;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #section1 {
+        background-image: url('../images/S&M_Engagement-43-crop.jpg');  
+        background-attachment: unset;
+    }
+    /* h2 {
+        font-family: 'Milo Serif';
+    }
+    p {
+        font-family: 'Milo Serif';
+    } */
+
 }
