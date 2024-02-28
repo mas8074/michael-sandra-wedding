@@ -154,6 +154,10 @@ padding: 50px;
     background-image: url('../images/S&M_Engagement-152.jpg');  
 }
 
+#section5 {
+    /* background-image: url('../images/S&M_Engagement-152.jpg');   */
+    background-color: #5c1212;
+}
 
 @media (max-width: 767px) {
     .section {
