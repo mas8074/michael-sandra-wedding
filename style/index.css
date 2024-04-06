@@ -126,6 +126,16 @@ padding: 50px;
     border: 0.2rem solid white;
 }
 
+div.transbox {
+    background-color: rgba(99, 25, 25, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.tall-pictures {
+    max-height: 50%;
+    max-width: 50%;
+}
 
 
 .section {
@@ -155,30 +165,42 @@ padding: 50px;
     background-attachment: fixed; 
 }
 
-#section2 {
+#our_story_section {
     /* background-image: url('../images/S&M_Engagement-161.jpg');      */
     background-color: #5c1212;
     height: fit-content;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #section3 {
     background-image: url('../images/S&M_Engagement-94.jpg');  
 }
 
-div.transbox {
-    background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-  }
 
 #section4 {
     background-image: url('../images/S&M_Engagement-152.jpg');  
 }
 
+#registry_section {
+    background-color: #5c1212;
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 #section5 {
     /* background-image: url('../images/S&M_Engagement-152.jpg');   */
     background-color: #5c1212;
+}
+
+#photo_gallery {
+    background-color: #5c1212;
+
+    
+    /* background-position: center; */
+    /* height: 25rem; */
+    max-width: inherit;
 }
 
 
@@ -194,6 +216,11 @@ div.transbox {
     #section1 {
         background-image: url('../images/S&M_Engagement-43-crop.jpg');  
         background-attachment: unset;
+    }
+    
+    .tall-pictures {
+        max-height: 100%;
+        max-width: 100%;
     }
     /* h2 {
         font-family: 'Milo Serif';
