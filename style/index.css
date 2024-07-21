@@ -192,6 +192,9 @@ div.transbox {
 #section5 {
     /* background-image: url('../images/S&M_Engagement-152.jpg');   */
     background-color: #5c1212;
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #photo_gallery {
